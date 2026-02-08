@@ -1,0 +1,5 @@
+# Secrets — NEVER commit
+.env
+
+# Podman/Docker build artifacts
+ollama-models/

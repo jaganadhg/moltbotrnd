@@ -1,0 +1,27 @@
+{
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "ollama/phi4-mini"
+      }
+    }
+  },
+  "gateway": {
+    "bind": "lan",
+    "port": 18789,
+    "auth": {
+      "mode": "token"
+    },
+    "controlUi": {
+      "dangerouslyDisableDeviceAuth": true
+    }
+  },
+  "browser": {
+    "enabled": false
+  },
+  "plugins": {
+    "slots": {
+      "memory": "none"
+    }
+  }
+}
